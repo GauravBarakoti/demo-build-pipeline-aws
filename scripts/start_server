@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd weather
+python manage.py runserver
