@@ -9,6 +9,9 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/start_server
+    - location: scripts/server
       timeout: 300
       runas: root
+  ApplicationStart:
+    - location: scripts/start_python
+      runas: ubuntu
