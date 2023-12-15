@@ -1,4 +1,5 @@
 #!/bin/bash
 
-
+pip install -r requirements.txt
+python3 manage.py startapp main
 python manage.py runserver
